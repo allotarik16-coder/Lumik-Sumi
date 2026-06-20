@@ -1,0 +1,120 @@
+id,nom,emoji,prix_vente_eur,region
+2,Épluche-légumes Tokyo,🥕,12,Tokyo
+10,Tenugui coton imprimé,🧣,11,Tokyo
+14,Planche à découper hinoki,🪵,28,Tokyo
+20,Furoshiki tissu noué,🎁,14,Tokyo
+21,Boîte bento deux étages,🍱,26,Tokyo
+22,Bol à soupe miso,🥣,13,Tokyo
+23,Pantoufles d'intérieur,🥿,17,Tokyo
+3,Baguettes hashi Kyoto,🥢,8,Kyoto
+5,Papier washi artisanal,📜,6,Kyoto
+15,Carnet papier washi,📓,9,Kyoto
+16,Éventail sensu bambou,🪭,13,Kyoto
+19,Set de baguettes + repose,🥢,19,Kyoto
+24,Encens kō traditionnel,🌿,10,Kyoto
+25,Bol à matcha chawan,🍵,24,Kyoto
+26,Fouet à matcha chasen,🎋,21,Kyoto
+9,Mortier suribachi,🥣,22,Osaka
+27,Râpe à daikon oroshigane,🧄,16,Osaka
+28,Marmite donabe en terre,🍲,54,Osaka
+29,Couteau Sakai deba,🔪,58,Osaka
+1,Couteau Seki petite lame,🔪,24,Seki (Gifu)
+6,Couteau chef Seki long,🔪,45,Seki (Gifu)
+7,Ciseaux de cuisine Seki,✂️,14,Seki (Gifu)
+11,Couteau Santoku Seki,🔪,52,Seki (Gifu)
+18,Aiguiseur pierre à eau,🪨,34,Seki (Gifu)
+17,Bol à riz Mino bleu,🍚,15,Mino (Gifu)
+4,Bol Arita céramique,🍵,18,Arita (Saga)
+33,Assiette Arita bleu-blanc,🍽️,20,Arita (Saga)
+13,Tasse à thé Hagi,🍵,16,Hagi (Yamaguchi)
+8,Plateau laqué rouge,🏮,32,Kanazawa (Ishikawa)
+30,Bol à thé feuille d'or,✨,39,Kanazawa (Ishikawa)
+31,Baguettes laquées Wajima,🥢,23,Kanazawa (Ishikawa)
+12,Théière Tetsubin fonte,🫖,48,Iwate (Nambu)
+32,Dessous-de-plat fonte Nambu,🔥,18,Iwate (Nambu)
+34,Verre Ryukyu soufflé,🥃,19,Okinawa
+35,Tissu bingata,🌺,22,Okinawa
+36,Théière kyusu émaillée,🫖,28,Tokyo
+37,Set de 5 bols donburi,🍜,24,Tokyo
+38,Pinceau de calligraphie fude,🖌️,12,Kyoto
+39,Bâtonnet d'encre sumi,🖋️,9,Kyoto
+40,Poêle à takoyaki fonte,🐙,36,Osaka
+41,Couteau Sakai nakiri,🔪,54,Osaka
+42,Couteau à pain Seki,🔪,38,Seki (Gifu)
+43,Théière porcelaine Arita,🫖,34,Arita (Saga)
+44,Bol chawan Hagi,🍵,30,Hagi (Yamaguchi)
+45,Boîte à thé laquée,🧰,27,Kanazawa (Ishikawa)
+46,Théière fonte petite Nambu,🫖,42,Iwate (Nambu)
+47,Tasse Yachimun,☕,18,Okinawa
+48,Pinceau Nara fude,🖌️,14,Nara
+49,Bâton d'encre Nara,🖋️,11,Nara
+50,Tasse en bois tournée,🪵,16,Hokkaido
+51,Couteau makiri,🔪,44,Hokkaido
+52,Coupelle étain Takaoka,🥃,26,Toyama
+53,Éventail uchiwa Marugame,🪭,12,Kagawa
+54,Théière grès Agano,🍵,22,Fukuoka
+55,Couteau Tsubame-Sanjo,🔪,40,Niigata
+56,Tablier de cuisine lin,🧵,25,Tokyo
+57,Boîte à riz ohitsu,🍚,34,Tokyo
+58,Set encens + porte-encens,🌿,19,Kyoto
+59,Tasse à thé kyo-yaki,🍵,21,Kyoto
+60,Plaque à okonomiyaki,🥞,30,Osaka
+61,Couteau d'office Seki,🔪,22,Seki (Gifu)
+62,Théière + 2 tasses Arita,🫖,46,Arita (Saga)
+63,Sous-tasse feuille d'or,✨,24,Kanazawa (Ishikawa)
+64,Bouilloire fonte émaillée,🫖,58,Iwate (Nambu)
+65,Bol Yachimun bleu,🍜,20,Okinawa
+66,Set calligraphie débutant,🖌️,26,Nara
+67,Planche à fromage bois,🪵,22,Hokkaido
+68,Couverts inox Tsubame,🍴,28,Niigata
+69,Vide-poche étain Takaoka,🥃,19,Toyama
+70,Set bols à udon Sanuki,🍜,18,Kagawa
+71,Théière sencha + boîte à thé,🍵,32,Shizuoka
+72,Tamis à thé,🫖,12,Shizuoka
+73,Bol Tokoname rouge,🍵,24,Aichi (Nagoya)
+74,Kyusu Tokoname,🫖,38,Aichi (Nagoya)
+75,Serviette coton Imabari,🧖,16,Imabari (Ehime)
+76,Set 3 tenugui Imabari,🧣,22,Imabari (Ehime)
+77,Mug grès Mashiko,☕,19,Mashiko (Tochigi)
+78,Verre Satsuma kiriko,🥃,48,Kagoshima
+79,Théière Shodai-yaki,🍵,26,Kumamoto
+80,Bol à soupe en bois itaya,🥣,24,Sapporo
+81,Cuillère à miso bois,🥄,9,Sapporo
+82,Plaid laine Hokkaido,🧶,38,Sapporo
+83,Bougie de cire d'abeille,🕯️,13,Sapporo
+84,Set 2 verres givrés,🥃,21,Sapporo
+85,Cendrier kokeshi peint,🎨,17,Sendai
+86,Poupée kokeshi miniature,🪆,15,Sendai
+87,Tissu shibori indigo,🟦,26,Sendai
+88,Coussin shibori,🛋️,32,Sendai
+89,Mug céramique minimal,☕,14,Yokohama
+90,Porte-savon grès,🧼,8,Yokohama
+91,Range-couverts bambou,🍴,19,Yokohama
+92,Égouttoir vaisselle bambou,🧺,23,Yokohama
+93,Set 4 sets de table lin,🧵,21,Yokohama
+94,Porte-clés cuir Himeji,🔑,16,Kobe
+95,Set 2 tasses à saké,🍶,18,Kobe
+96,Carafe à saké tokkuri,🍾,24,Kobe
+97,Étui à lunettes cuir,👓,22,Kobe
+98,Spatules okonomiyaki bois,🥢,11,Hiroshima
+99,Pinceau Kumano maquillage,🖌️,28,Hiroshima
+100,Set pinceaux Kumano (3),🖌️,54,Hiroshima
+101,Boîte à mouchoirs bois,🗃️,19,Hiroshima
+102,Plateau bois sukiya,🍱,29,Takayama
+103,Set 4 dessous-de-verre bois,🪵,16,Takayama
+104,Horloge murale bois,🕰️,42,Takayama
+105,Porte-baguettes sculpté,🥢,7,Takayama
+106,Tabouret bois pliant,🪑,46,Takayama
+107,Lanterne papier washi,🏮,27,Tsuwano
+108,Set cartes de vœux washi,✉️,12,Tsuwano
+109,Sceau hanko personnalisable,🔖,25,Tsuwano
+110,Encrier calligraphie suzuri,🖋️,31,Tsuwano
+111,Carafe verre Ryukyu,🫙,28,Naha
+112,Set 4 verres Ryukyu colorés,🥂,36,Naha
+113,Panier tissé minsa,🧺,24,Naha
+114,Ceinture obi minsa,🎀,33,Naha
+115,Coussin imprimé bingata,🛋️,29,Naha
+116,Tenugui teint indigo aizome,🟦,13,Tokushima
+117,Tote bag indigo aizome,👜,27,Tokushima
+118,Set 3 lingettes indigo,🧻,14,Tokushima
+119,Écharpe coton aizome,🧣,25,Tokushima
