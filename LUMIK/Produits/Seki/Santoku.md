@@ -7,3 +7,4 @@
 
 ## Description
 Santoku forgé à Seki, acier dur, tient le fil longtemps.
+
