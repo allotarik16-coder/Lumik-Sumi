@@ -1,0 +1,52 @@
+name: Sync Obsidian Produits
+
+on:
+  push:
+    paths:
+      - 'LUMIK/Produits/**/*.md'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Parse → CSV
+        run: |
+          python3 << 'EOF'
+          import os, re, csv
+          
+          rows = []
+          for root, dirs, files in os.walk('LUMIK/Produits'):
+            for f in files:
+              if not f.endswith('.md'): continue
+              with open(os.path.join(root, f), 'r', encoding='utf-8') as file:
+                content = file.read()
+              
+              id_m = re.search(r'\*\*ID\*\*\s*:\s*(\d+)', content)
+              emoji_m = re.search(r'\*\*Emoji\*\*\s*:\s*(.)', content)
+              prix_m = re.search(r'\*\*Prix EUR\*\*\s*:\s*(\d+)', content)
+              region_m = re.search(r'\*\*Région\*\*\s*:\s*(\w+)', content)
+              name_m = re.search(r'^#\s+(.+)$', content, re.M)
+              
+              if name_m and id_m and prix_m:
+                rows.append({
+                  'id': id_m.group(1),
+                  'nom': name_m.group(1).strip(),
+                  'emoji': emoji_m.group(1) if emoji_m else '📦',
+                  'prix_vente_eur': prix_m.group(1),
+                  'region': region_m.group(1) if region_m else 'Japon'
+                })
+          
+          with open('produits.csv', 'w', newline='', encoding='utf-8') as f:
+            w = csv.DictWriter(f, ['id', 'nom', 'emoji', 'prix_vente_eur', 'region'])
+            w.writeheader()
+            w.writerows(rows)
+          
+          print(f"✅ {len(rows)} produits")
+          EOF
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: produits.csv
+          path: produits.csv
